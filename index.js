@@ -16,6 +16,7 @@ isPalindrome = word => word === reverseString(word)
   and the output is a boolean (return true if palindrome, false if not).
   To check for palindromes, my thought process is to store each string in some way, reverse the string and store that
   value as well, then compare if the two are strictly equal. If so, it is indeed a palindrome.
+  I know you can call split on a string and put each character into an array, and that there is an array method .reverse.
 */
 
 // You can run `node index.js` to view these console logs

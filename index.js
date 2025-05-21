@@ -1,7 +1,7 @@
-reverseString = string => string.split('').reverse().join('')
+const reverseString = string => string.split('').reverse().join('')
 
 
-isPalindrome = word => word === reverseString(word)
+const isPalindrome = word => word === reverseString(word)
 
 
 /*

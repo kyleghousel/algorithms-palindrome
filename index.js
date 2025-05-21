@@ -19,9 +19,8 @@ const isPalindrome = word => word === reverseString(word)
   I know you can call split on a string and put each character into an array, and that there is an array method .reverse.
 */
 
-// You can run `node index.js` to view these console logs
 if (require.main === module) {
-  // add your own custom tests in here
+
   console.log("Expecting: true");
   console.log("=>", isPalindrome("racecar"));
 
@@ -29,6 +28,21 @@ if (require.main === module) {
 
   console.log("Expecting: false");
   console.log("=>", isPalindrome("robot"));
+
+  console.log("")
+
+  console.log("Input: wow, Expected output: true")
+  console.log("=>", isPalindrome("wow"))
+
+  console.log("")
+
+  console.log("Input: nice, Expected output: false")
+  console.log("=>", isPalindrome("nice"))
+
+  console.log("")
+
+  console.log("Input: empty string, Expected output: true")
+  console.log("=>", isPalindrome(""))
 }
 
 module.exports = isPalindrome;

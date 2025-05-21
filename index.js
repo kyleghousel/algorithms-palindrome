@@ -1,10 +1,8 @@
-reverseString = (string) => {
-  return string.split('').reverse().join('')
-}
+reverseString = string => string.split('').reverse().join('')
 
-isPalindrome = (word) => {
-  return word === reverseString(word)
-}
+
+isPalindrome = word => word === reverseString(word)
+
 
 /*
   1. Create a helper function that reverses a given string, takes in a string and returns a string
